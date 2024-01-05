@@ -5,5 +5,8 @@
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "watch:css": "npm run build:css -- --watch"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
   }
 }
